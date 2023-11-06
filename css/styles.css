@@ -732,11 +732,13 @@ img{
 .close-btn:hover{
     background-color: var(--Pressed-state);
     border: none;
+    fill:var(--White-background);
 }
 
 .close-btn:focus{
     background-color: var(--Pressed-state);
     border: none;
+    fill: var(--White-background);
 }
 
 .icon-close{
@@ -744,13 +746,5 @@ img{
     
 }
 
-.modal:hover{
-    fill:var(--White-background);
-}
-
-.modal:focus{
-    fill: var(--White-background);
-
-}
 
 /*------------------------------------------------*/
